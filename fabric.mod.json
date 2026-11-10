@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockmod",
+  "version": "${version}",
+  "name": "Bedrock TNT Box",
+  "description": "TNT box game with /bedrock commands.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.bedrockmod.BedrockMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
